@@ -41,11 +41,21 @@
  // Segundo marcador: Coyoacán
   L.marker([19.3467, -99.1617]).addTo(map)
     .bindPopup('Coyoacán');
+  L.marker([19.373538757919665, -99.1568939272939]).addTo(map)
+    .bindPopup('Parque Frnacisco Villa');
+  L.marker([19.378643354574766, -99.1798426951629]).addTo(map)
+    .bindPopup('Parque Hundido');
+  L.marker([19.373538757919665, -99.1568939272939]).addTo(map)
+    .bindPopup('Parque Frnacisco Villa');
+  L.marker([19.37854917933376, -99.16267891814553]).addTo(map)
+    .bindPopup('Parque Arboledas');
+  L.marker([19.376279536589937, -99.17679335520147]).addTo(map)
+    .bindPopup('Parque San Lorenzo');
 
   // Define la capa vacía para las alcaldías
   var alcaldiasLayer = L.geoJSON(null, {
     style: {
-      color: 'blue',
+      color: 'black',
       weight: 2,
       fillOpacity: 0.1
     },
@@ -74,4 +84,5 @@
 
 </body>
 </html>
+
 
